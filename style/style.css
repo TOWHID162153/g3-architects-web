@@ -28,19 +28,26 @@
     color: rgba(66, 66, 66, 1);
 }
 
+.all-h3 {
+    font-size: 2.8rem;
+    width: 100%;
+}
+
+.all-para {
+    font-size: 1.2rem;
+    width: 100%;
+}
 
 /* share */
 
-/* header */
 
 
-/* .navbar{
-
-} */
+/* navbar */
 .nav-justify {
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-brand {
     font-size: 2rem;
     font: 700;
@@ -57,21 +64,32 @@
     font-size: 1rem;
 }
 
-/* header */
+/* navbar */
 
-/* banner */
-.navbar,.banner {
+
+
+
+
+/* ---alingment center--- */
+.navbar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
     padding: 20px 0;
 }
 
-/* banner */
-.banner-img-size {
-    width: 100%;
-    padding: 46px 0px;
+.main-sec {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
+/* ---alingment center--- */
+
+
+
+
+
+/* banner */
 .banner-text {
     max-width: 862px;
     text-align: center;
@@ -79,28 +97,33 @@
     margin: 0 auto;
 }
 
-.banner-h1 {
-    font-size: 2.8rem;
-    width: 100%;
-}
-
-.banner-para {
-    font-size: 1.2rem;
-    width: 100%;
-}
 .button-primary {
     background-color: rgba(255, 144, 14, 1);
     color: white;
     padding: 20px 25px;
     border-radius: 8px;
     font-size: 1rem;
-    border: none;   
+    border: none;
 }
 
-/* media */
+.banner-img-size {
+    width: 100%;
+    padding: 46px 0px;
+}
+
+/* banner */
+
+
+
+
+/* media break-point*/
 @media screen and (max-width: 768px) {
-    .banner, .navbar  {
+
+    .banner,
+    .navbar {
         flex-direction: column;
     }
 
 }
+
+/* media break-point*/
