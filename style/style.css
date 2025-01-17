@@ -143,10 +143,10 @@
 /* responsive media queery */
 @media screen and (max-width: 576px) {
 
-    .navbar,
-    .nav-link {
+    .navbar, .nav-link {
         flex-direction: column;
     }
+    
 
 }
 
