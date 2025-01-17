@@ -11,16 +11,20 @@
 .display-flex {
     display: flex;
 }
-.light-orange-bg{
+
+.light-orange-bg {
     background-color: rgba(255, 144, 14, 0.1);
 }
-.dark-01{
+
+.dark-01 {
     color: rgba(19, 19, 19, 1);
 }
-.dark-02{
+
+.dark-02 {
     color: rgba(66, 66, 66, 1);
 }
-.dark-03{
+
+.dark-03 {
     color: rgba(66, 66, 66, 1);
 }
 
@@ -30,8 +34,9 @@
 /* header */
 .nav-justify {
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
+
 /* .navbar{
 
 } */
@@ -43,7 +48,7 @@
 .nav-item {
     list-style: none;
     font-size: 1rem;
-    margin-left: 30px;      
+    margin-left: 30px;
 }
 
 .nav-link {
@@ -54,9 +59,41 @@
 /* header */
 
 /* banner */
-.navbar, .banner{
+.navbar,.banner {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 /* banner */
+.banner-img-size {
+    width: 100%;
+}
+
+.banner-text {
+    max-width: 862px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-h1 {
+    font-size: 2.8rem;
+    width: 100%;
+}
+
+.banner-para {
+    font-size: 1.2rem;
+    width: 100%;
+}
+.button-margin {
+    margin: 20px 0;
+}
+.button-primary {
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;   
+}
