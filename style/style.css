@@ -32,7 +32,9 @@
     justify-content: space-between;
     align-items: center; 
 }
+.navbar{
 
+}
 .nav-brand {
     font-size: 45px;
     font-weight: 700;
@@ -52,8 +54,8 @@
 /* header */
 
 /* banner */
-.banner{
-    max-width: 1480;
+.navbar, .banner{
+    max-wisdth: 1440;
     margin: 0 auto;
 }
 
