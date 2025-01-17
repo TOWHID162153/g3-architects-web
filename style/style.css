@@ -7,7 +7,10 @@
     font-style: normal;
 }
 
-/* share */
+/* -----------------------------------------    Google-fonts    ----------------------------------------- */
+
+
+/* ---------------------------------------     Shared-classes     --------------------------------------- */
 .display-flex {
     display: flex;
 }
@@ -25,7 +28,7 @@
 }
 
 .dark-03 {
-    color: rgba(66, 66, 66, 1);
+    color: rgba(114, 114, 114, 1);
 }
 
 .all-h3 {
@@ -38,12 +41,34 @@
     width: 100%;
 }
 
-/* share */
+.alingment-center {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.primary-sec {
+    margin-top: 130px;
+}
+/* ---------------------------------------     Shared-classes     --------------------------------------- */
 
 
+/* -----------------------------------------    aling-center    ----------------------------------------- */
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
 
-/* navbar */
-.nav-justify {
+/* ---alingment center--- */
+/* -----------------------------------------    aling-center    ----------------------------------------- */
+
+
+/* ---------------------------------------------    body    --------------------------------------------- */
+
+
+/* ---------------------------------------------   navbar   --------------------------------------------- */
+.navbar {
     justify-content: space-between;
     align-items: center;
 }
@@ -56,41 +81,19 @@
 .nav-item {
     list-style: none;
     font-size: 1rem;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 .nav-link {
     text-decoration: none;
     font-size: 1rem;
 }
-
-/* navbar */
-
+/* ---------------------------------------------   navbar   --------------------------------------------- */
 
 
 
-
-/* ---alingment center--- */
-.navbar,
-.banner {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.main-sec {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-/* ---alingment center--- */
-
-
-
-
-
-/* banner */
-.banner-text {
+/* ---------------------------------------------   banner   --------------------------------------------- */
+.banner-text-sec {
     max-width: 862px;
     text-align: center;
     width: 100%;
@@ -100,9 +103,10 @@
 .button-primary {
     background-color: rgba(255, 144, 14, 1);
     color: white;
+    font-weight: 600;
     padding: 20px 25px;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     border: none;
 }
 
@@ -111,19 +115,45 @@
     padding: 46px 0px;
 }
 
-/* banner */
+.foot-sec {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------   banner   --------------------------------------------- */
+
+
+
+/* ---------------------------------------------   footer   --------------------------------------------- */
+.foot-sec {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.foot-para {
+    font-size: 1rem;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* ---------------------------------------------   footer   --------------------------------------------- */
+
+/* ---------------------------------------------    body    --------------------------------------------- */
 
 
 
 
-/* media break-point*/
-@media screen and (max-width: 768px) {
 
-    .banner,
-    .navbar {
+
+
+/* responsive media queery */
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .nav-link {
         flex-direction: column;
     }
 
 }
 
-/* media break-point*/
+/* responsive media queery */
