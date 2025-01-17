@@ -32,14 +32,15 @@
 /* share */
 
 /* header */
-.nav-justify {
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 /* .navbar{
 
 } */
+.nav-justify {
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-brand {
     font-size: 2rem;
     font: 700;
@@ -96,3 +97,10 @@
     border: none;   
 }
 
+/* media */
+@media screen and (max-width: 768px) {
+    .banner, .navbar  {
+        flex-direction: column;
+    }
+
+}
