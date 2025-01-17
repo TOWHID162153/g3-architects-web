@@ -11,27 +11,50 @@
 .display-flex {
     display: flex;
 }
+.light-orange-bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.dark-01{
+    color: rgba(19, 19, 19, 1);
+}
+.dark-02{
+    color: rgba(66, 66, 66, 1);
+}
+.dark-03{
+    color: rgba(66, 66, 66, 1);
+}
+
 
 /* share */
 
 /* header */
 .nav-justify {
     justify-content: space-between;
+    align-items: center; 
 }
 
 .nav-brand {
-    font-size: 24px;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .nav-item {
     list-style: none;
-    font-size: 18px;
+    font-size: 26px;
+    margin-left: 30px;      
 }
 
 .nav-link {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
 }
 
 /* header */
+
+/* banner */
+.banner{
+    max-width: 1480;
+    margin: 0 auto;
+}
+
+/* banner */
